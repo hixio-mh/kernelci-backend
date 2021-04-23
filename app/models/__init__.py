@@ -123,6 +123,7 @@ IP_ADDRESS_KEY = "ip_address"
 JOB_ID_KEY = "job_id"
 JOB_KEY = "job"
 KCONFIG_FRAGMENTS_KEY = "kconfig_fragments"
+KERNEL_BUILD_LOGS_KEY = "kernel_build_logs"
 KERNEL_CONFIG_KEY = "kernel_config"
 KERNEL_CONFIG_SIZE_KEY = "kernel_config_size"
 KERNEL_IMAGE_KEY = "kernel_image"
@@ -450,29 +451,6 @@ BUILD_VALID_KEYS = {
         TEXT_OFFSET_KEY,
         WARNINGS_KEY
     ],
-    "POST": {
-        MANDATORY_KEYS: [
-            ARCHITECTURE_KEY,
-            BUILD_ENVIRONMENT_KEY,
-            DEFCONFIG_KEY,
-            FILE_SERVER_RESOURCE_KEY,
-            GIT_BRANCH_KEY,
-            JOB_KEY,
-            KERNEL_KEY
-        ],
-        ACCEPTED_KEYS: [
-            ARCHITECTURE_KEY,
-            BUILD_ENVIRONMENT_KEY,
-            DEFCONFIG_FULL_KEY,
-            DEFCONFIG_KEY,
-            FILE_SERVER_RESOURCE_KEY,
-            GIT_BRANCH_KEY,
-            JOB_KEY,
-            KERNEL_KEY,
-            KERNEL_VERSION_KEY,
-            VERSION_KEY
-        ]
-    }
 }
 
 TOKEN_VALID_KEYS = {
